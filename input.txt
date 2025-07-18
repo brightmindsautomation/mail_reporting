@@ -1,0 +1,11 @@
+Period = 1,2 (User configurable: If option "1" is choosen Date_From and Date_To to be choosen for report generation)
+Period = 1 ( This line is only shown for logic)
+Date_From = 2/1/25 0:00 (User configurable: User needs to provide input date_from)
+Date_To = 2/2/25 23:00 (User configurable: User needs to provide input date_to)
+Period = 2 ( This line is only shown for logic)
+Duration = 8 hours (User configurable: Say when the executable is run at 18:00 hours the report should be generates for 8 hours before 18:00 hours)
+email addresses = sarmid97@gmail.com (currently only works with 1 email)
+Validation items 6001.P > 8000 & 6002.P <2000 
+Threshold_percentage_auto = 80% (Only for applying filter during reporting)
+Threshold_percentage_manual = 20% (Only for applying filter during reporting)
+Report_Configuration = 3 (1: when auto is greater than threshold_percentage_auto; 2: will show when manual is greater than threshold_percentage_manual%; 3: will show the _SP column changes%)
